@@ -1,10 +1,14 @@
 {
-  "people": [
-    { "id": 1, "name": "naveen nath" },
-    { "id": 2, "name": "Goku" },
-    { "id": 3, "name": "vegita" }
-    { "id": 4, "name": "gohan" }
-    { "id": 5, "name": "trunks" }
-  ]
- 
+  "posts": [
+    { "id": 1, "title": "naveen 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
